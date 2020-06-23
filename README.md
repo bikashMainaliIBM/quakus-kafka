@@ -1,8 +1,5 @@
 # data converter project
-
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
-
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+this project reads data from topic `item-topic` which contains serialized data of type Item and converts data to Inventory type and sends data to another topic `inventory-topic`. these two topic needs to be on you kafka-cluster.
 
 ## ENV
 3 environment variable are required to connect to ibm cloud
